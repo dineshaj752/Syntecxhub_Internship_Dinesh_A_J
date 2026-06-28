@@ -75,7 +75,7 @@ public class Library {
         }
     }
 
-    public void saveBooks(){
+    private void saveBooks(){
         try{
             PrintWriter writer = new PrintWriter(new File(FILE_NAME));
 
@@ -89,7 +89,7 @@ public class Library {
         }
     }
 
-    public void loadBooks(){
+    private void loadBooks(){
         File file = new File(FILE_NAME);
 
         if(!file.exists()){
