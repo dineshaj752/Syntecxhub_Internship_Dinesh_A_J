@@ -16,7 +16,7 @@ public class Main {
             System.out.println("4. Search Book");
             System.out.println("5. Exit");
 
-            System.out.println("Enter Your Choice");
+            System.out.print("Enter Your Choice");
 
             try{
                 int choice = obj.nextInt();
